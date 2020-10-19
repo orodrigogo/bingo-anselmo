@@ -1,0 +1,20 @@
+:root {
+  --primary: #1A5C68;
+  --secondary: #0E3B42;
+  --tertiary: #1A5C68;
+  --quaternary: #1D87B7;
+
+  --quinary: #055902;
+  --senary: #77D932;
+  
+  --eighth:#04258E;
+  --ninth: #4859CB;
+  --tenth: #2B919E;
+  
+  --white: #fff;
+  --black: #000;
+  --gray: #8a8c90;
+
+  --light:#DCBF14;
+  --warning: red;
+}
