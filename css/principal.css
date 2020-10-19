@@ -17,12 +17,39 @@
   grid-template-rows: 100px auto;
   gap: 5px 5px;
   grid-template-areas: 
-  'AC AC TP'
+  'AC AC TR'
   'PR CR CP';
+  
+
   height: 100vh;
+  width: 100%;
+  min-width: 500px;
 
   padding: 7px;
 }
+
+@media (max-width: 1500px) {
+  #layout {
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px auto;
+    gap: 5px 5px;
+    grid-template-areas: 
+    'AC AC AC'
+    'TR TR TR'
+    'PR CR CP';
+    
+  
+    height: 100vh;
+    width: 100%;
+  
+    padding: 7px;
+  }
+    
+}
+
+
+/* =================================== HEADER */
 
 div.box-value-primary {
   -webkit-box-shadow: inset 0px 0px 6px 3px rgba(0,0,0,0.66);
@@ -171,13 +198,63 @@ div.accumulated-box-left  div + div > span{
 }
 
 
-
 section#round-time {
+  grid-area: TR;
 
-  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+div.round-time-box {
+  height: 100px;
+  
+  flex: 1;
+  margin-right: 5px;
+  padding: 7px;
+
+  text-align: center;
+
+  border-radius: 5px;
+  background-color: var(--primary);
+}
+
+div.round-time-box:last-child {
+  margin-right: 0;
+}
+
+div.round-time-box > span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--white);
+}
+
+div.round-time-box > div {
+  font-size: 2rem;
+  font-weight: 700;
+  
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 12px 10px;
+  
+
+  color: var(--senary);
+  background-color: var(--secondary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
 section#awards {
+
+
   background-color:violet;
 }
 
