@@ -1,0 +1,24 @@
+.color-senary {
+  color: var(--senary);
+}
+
+.color-quaternary {
+  color: var(--quaternary);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.bg-color-light {
+  background-color: var(--light);
+}
+
+.bg-color-tertiary {
+  background-color: var(--tertiary);
+}
+
+.bg-color-spotlight {
+  background-color: var(--spotlight);
+}
+

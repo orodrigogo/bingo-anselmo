@@ -13,7 +13,7 @@
 
 #layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.7fr 0.9fr 1.4fr;
   grid-template-rows: 100px auto;
   gap: 5px 5px;
   grid-template-areas: 
@@ -26,9 +26,11 @@
   min-width: 500px;
 
   padding: 7px;
+
+  background-color: #cecece;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1000px) {
   #layout {
    
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,7 +51,7 @@
 }
 
 
-/* =================================== HEADER */
+/* =================================== CABEÇALHO */
 
 div.box-value-primary {
   -webkit-box-shadow: inset 0px 0px 6px 3px rgba(0,0,0,0.66);
@@ -186,7 +188,7 @@ div.accumulated-box-left  div > h2 {
 div.accumulated-box-left  div + div {
   height: 80px;
   line-height: 80px;
-  padding-right: 5px;
+  
 }
 
 
@@ -194,7 +196,7 @@ div.accumulated-box-left  div + div > span{
   color: var(--light);
   font-size: 2.5rem;
   font-weight: 500;
-
+  margin-right: 15px;
 }
 
 
@@ -237,9 +239,7 @@ div.round-time-box > div {
   border-radius: 5px;
   margin-top: 5px;
   padding: 12px 10px;
-  
 
-  color: var(--senary);
   background-color: var(--secondary);
 
   display: flex;
@@ -247,6 +247,84 @@ div.round-time-box > div {
   justify-content: center;
 }
 
+
+
+/* =================================== CARTELA DE SORTEIO PRINCIPAL */
+section#main-card {
+  grid-area: CP;
+}
+
+section#main-card > header {
+  border-radius: 10px;
+
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--white);
+
+  margin-bottom: 5px;
+} 
+
+section#main-card > header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  text-align: center;
+  padding: 15px 0;
+
+}
+
+
+section#main-card table {
+  width: 100%;
+  height: 75vh;
+  border-radius: 5px;
+
+  background-color: var(--tenth);
+
+}
+
+
+section#main-card table tbody {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+section#main-card table tbody tr {
+  height: 12.5%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+section#main-card table tbody tr td {
+  width: 10%;
+  height: 100%;
+  
+  border-radius: 5px;
+  text-align: center;
+
+  color: var(--black);
+
+  font-weight: 700;
+  font-size: 2.3rem;
+
+  border: 3px solid var(--tenth);
+
+  -webkit-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
+  -moz-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
+  box-shadow: inset 3px 3px 5px 3px rgba(0,0,0,0.63);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -260,8 +338,4 @@ section#awards {
 
 section#cards {
   background-color: yellow;
-}
-
-section#main-card {
-  background-color: gray;
 }

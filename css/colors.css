@@ -1,7 +1,7 @@
 :root {
   --primary: #1A5C68;
   --secondary: #0E3B42;
-  --tertiary: #1A5C68;
+  --tertiary: #005878;
   --quaternary: #1D87B7;
 
   --quinary: #055902;
@@ -9,12 +9,13 @@
   
   --eighth:#04258E;
   --ninth: #4859CB;
-  --tenth: #2B919E;
+  --tenth: #39B0AD;
   
   --white: #fff;
   --black: #000;
   --gray: #8a8c90;
 
-  --light:#DCBF14;
+  --light: yellow;
   --warning: red;
+  --spotlight: #FF0099;
 }
