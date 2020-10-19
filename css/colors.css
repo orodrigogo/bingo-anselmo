@@ -6,6 +6,7 @@
 
   --quinary: #055902;
   --senary: #77D932;
+  --dark-senary: #57AE4B;
   
   --eighth:#04258E;
   --ninth: #4859CB;
@@ -16,6 +17,7 @@
   --gray: #8a8c90;
 
   --light: yellow;
-  --warning: red;
+  --warning: #8E1D23;
   --spotlight: #FF0099;
+  --alert: #FF8707;
 }

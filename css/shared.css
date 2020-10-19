@@ -10,6 +10,14 @@
   color: var(--light);
 }
 
+.color-warning {
+  color: var(--warning);
+}
+
+.color-white {
+  color: var(--white);
+}
+
 .bg-color-light {
   background-color: var(--light);
 }
@@ -21,4 +29,10 @@
 .bg-color-spotlight {
   background-color: var(--spotlight);
 }
+
+.bg-color-alert {
+  background-color: var(--alert);
+}
+
+
 
