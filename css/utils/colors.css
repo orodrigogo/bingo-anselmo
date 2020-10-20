@@ -15,12 +15,15 @@
   --white: #fff;
   --black: #000;
   --gray: #8a8c90;
+  --dark-gray: #84A3BF;
 
+  
   --light: yellow;
   --warning: #8E1D23;
   --spotlight: #FF0099;
   --alert: #FF8707;
 
-  --black-transparent: rgba(0,0,0,.8);
+
+  --black-transparent: rgba(0,0,0,.7);
   --linear-gradient-bottom-top: linear-gradient(188deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.5) 100%);
 }
