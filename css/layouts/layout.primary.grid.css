@@ -1,0 +1,62 @@
+/**
+ * Anotações da Estrutura do Grid Layout
+ * 
+ * AC = Acumulado
+ * TR = Tempo da rodada
+ * PR = Prêmios
+ * CR = Cartelas
+ * CP = Cartela Principal
+ * 
+ * É uma grid e 2 linhas e 3 colunas.
+ */
+
+
+ #layout {
+  display: grid;
+  grid-template-columns: 0.7fr 0.9fr 1.4fr;
+  grid-template-rows: 100px auto;
+  gap: 5px 5px;
+  grid-template-areas: 
+  'AC AC TR'
+  'PR CR CP';
+  
+
+  height: 100vh;
+  width: 100%;
+  min-width: 500px;
+
+  padding: 7px;
+
+  background-color: #cecece;
+}
+
+section#accumulated{
+  grid-area: AC;
+}
+
+section#times{
+  grid-area: TR;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+section#awards{
+  grid-area: PR;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  overflow-y: hidden;
+}
+
+section#cards{
+  grid-area: CR;
+  overflow-y: hidden;
+}
+
+section#main-card {
+  grid-area: CP;
+  background-color: blue;
+}

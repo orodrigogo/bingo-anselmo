@@ -1,0 +1,79 @@
+section#main-card {
+  grid-area: CP;
+}
+
+section#main-card > header {
+  border-radius: 10px;
+
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--white);
+
+  margin-bottom: 5px;
+} 
+
+section#main-card > header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  text-align: center;
+  padding: 15px 0;
+
+}
+
+
+section#main-card table {
+  width: 100%;
+  height: 75vh;
+  border-radius: 5px;
+
+  background-color: var(--tenth);
+
+}
+
+
+section#main-card table tbody {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 5px;
+}
+
+section#main-card table tbody tr {
+  height: 12.5%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+section#main-card table tbody tr td {
+  width: 10%;
+  height: 100%;
+  
+  border-radius: 5px;
+  text-align: center;
+
+  color: var(--black);
+
+  font-weight: 700;
+  font-size: 2.3rem;
+
+  border: 3px solid var(--tenth);
+
+  -webkit-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
+  -moz-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
+  box-shadow: inset 3px 3px 5px 3px rgba(0,0,0,0.63);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+

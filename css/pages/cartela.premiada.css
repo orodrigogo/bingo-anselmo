@@ -1,0 +1,77 @@
+section#content {
+  background-image: url(../../img/bingo.jpg);
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div#winner-card {  
+  border-radius: 20px;
+  border: 12px solid var(--quinary);
+
+  background-color: var(--senary);
+  color: var(--white);
+
+  overflow: hidden;
+}
+
+div#winner-card header{  
+  background-color: var(--quinary);
+}
+
+div#winner-card header h2{
+  padding: 10px 2px;
+  
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+
+div#winner-card table {
+  margin: 30px;
+  border: 3px solid var(--dark-senary);
+}
+
+div#winner-card table tbody tr td {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+
+  font-size: 4rem;
+  border: 1px solid var(--black);
+  background-color: var(--dark-senary);
+
+  border: 5px solid var(--quinary);
+}
+
+div#winner-card table tbody tr td span {
+  line-height: 90px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+div#winner-card footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+
+  color: var(--black);
+}
+
+div#winner-card footer div h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+div#winner-card footer div span {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}

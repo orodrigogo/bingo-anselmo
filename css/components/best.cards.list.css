@@ -1,0 +1,73 @@
+
+
+div#best-cards > header {
+  background-color: var(--ninth);
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 10px;
+
+  -webkit-box-shadow: inset 0px 1px 3px 3px var(--eighth);
+  -moz-box-shadow: inset 0px 1px 3px 3px var(--eighth);
+  box-shadow: inset 0px 1px 3px 3px var(--eighth);
+}
+
+div#best-cards > header h2 {
+  color: var(--white);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+div#best-cards-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  height: 50vh;
+  overflow-y: scroll;
+
+  background-image: url(../../img/bg-cartelas.png);
+  margin-top: -7px;
+}
+
+div.card {
+  width: 45%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+
+}
+
+div.card header{  
+  width: 100%;
+  background-color: var(--quinary);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.card header h2{
+  color: var(--white);
+  padding: 7px 2px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+div.card table {
+  width: 100%;
+}
+
+div.card table tbody tr td {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+
+  font-size: 1.2rem;
+  border: 1px solid var(--black);
+}

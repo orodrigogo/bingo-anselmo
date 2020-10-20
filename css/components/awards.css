@@ -1,0 +1,86 @@
+div#awards-box {
+  width: 100%;
+  padding: 10px 15px;
+
+  background-color: var(--senary);
+  border-radius: 5px;
+
+  margin-bottom: 5px;
+}
+
+div.awards-box-position div:first-child {
+  position: relative;
+  bottom: -.6rem;
+}
+
+div.awards-box-position div:first-child span{
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  padding: 10px;
+  border: 1px solid var(--black);
+  border-radius: 50%;
+
+
+}
+
+div.awards-box-position div:first-child strong {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+div.awards-box-position div:last-child{
+  background-color: var(--dark-senary);
+  border: 2px solid var(--black);
+
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 7px 0;
+  text-align: center;
+}
+
+div#people {
+  background-color: var(--black-transparent);
+  border-radius: 5px;
+
+  padding: 3px;
+  height: 50%;
+  overflow-y: scroll;
+}
+
+div#people > ul {
+  width: 100%;
+}
+
+div#people > ul li{
+  display: flex;
+  align-items: center;
+
+  margin: 3px 0;
+}
+
+div#people > ul li strong {
+  color: white;
+
+  display: inline-block;
+  width: 170px;
+
+  overflow: hidden;
+}
+
+div#people > ul li span {
+
+  color: var(--black);
+  background-color: var(--white);
+  font-weight: 700;
+  
+ 
+  margin-left: 5px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
