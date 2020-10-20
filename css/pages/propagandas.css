@@ -1,0 +1,84 @@
+/*
+  Anotações do Grid Layout
+
+  HD - Header
+  AS - Aside
+  MN - Main
+  FT - Footer
+*/
+
+
+section#content {
+  display: grid;
+
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: .3fr 2.4fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas: 
+  'HD HD'
+  'AS MN'
+  'FT FT';
+
+  height: calc(100vh - 120px);
+  width: 100%;
+
+  
+  background: var(--linear-gradient-bottom-top);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+header {
+  grid-area: HD;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+aside#sponsors {
+  grid-area: AS;
+
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+aside#sponsors img{
+  min-width: 300px;
+  max-height: 120px;
+}
+
+
+article {
+  grid-area: MN;
+  display: flex;
+}
+
+article#spotlight img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+footer#others {
+  grid-area: FT;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer#others img{
+  max-height: 120px;
+  min-width: 150px;
+}
+
