@@ -374,7 +374,7 @@ div.awards-box-position div:last-child{
 }
 
 div#people {
-  background-color: black;
+  background-color: var(--black-transparent);
   border-radius: 5px;
 
   padding: 3px;
@@ -472,19 +472,31 @@ div.previous-ball {
   box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
 }
 
+div.previous-no-ball {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  
+  background-color: var(--black-transparent);
+  -webkit-box-shadow: 0px 1px 3px 3px var(--black);
+  -moz-box-shadow: 0px 1px 3px 3px var(--black);
+  box-shadow: 0px 1px 3px 3px var(--black);
+
+  text-align: center;
+  color: var(--black);
+}
+
 div.previous-ball span {
   font-weight: 700;
   font-size: 28px;
 }
-
-
 
 div.current-ball {
   width: 170px;
   height: 170px;
   border-radius: 85px;
 
-  background: var(--ninth);
+  background-color: var(--ninth);
   background: radial-gradient(circle, var(--white) 0%, var(--ninth) 100%);
 
   border: 17px solid var(--quaternary);
@@ -497,6 +509,22 @@ div.current-ball {
   -moz-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
   box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
 }
+
+div.current-no-ball {
+  width: 170px;
+  height: 170px;
+  border-radius: 85px;
+
+  background-color: var(--black-transparent);
+  -webkit-box-shadow: 0px 1px 3px 3px var(--black);
+  -moz-box-shadow: 0px 1px 3px 3px var(--black);
+  box-shadow: 0px 1px 3px 3px var(--black);
+
+  text-align: center;
+  color: var(--black);
+}
+
+
 
 div.current-ball span {
   font-size: 80px;
@@ -538,7 +566,6 @@ div.last-balls-details footer div span{
   font-size: 2.5rem;
 }
 
-
 div#best-cards > header {
   background-color: var(--ninth);
   width: 100%;
@@ -566,6 +593,8 @@ div#best-cards-list {
   height: 49vh;
   overflow-y: scroll;
 
+  background-image: url(../img/bg-cartelas.png);
+  margin-top: -7px;
 }
 
 div.card {
