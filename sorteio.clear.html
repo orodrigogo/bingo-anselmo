@@ -1,59 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Rodrigo Gonçalves">
   <meta name="description" content="Front-end desenvolvido por Rodrigo Gonçalves">
 
-  <link href="./css/reset.css" rel="stylesheet">
-  <link href="./css/colors.css" rel="stylesheet">
-  <link href="./css/principal.css" rel="stylesheet">
-  <link href="./css/shared.css" rel="stylesheet">
+  <link href="./css/utils/reset.css" rel="stylesheet">
+  <link href="./css/utils/colors.css" rel="stylesheet">
+
+  <link href="./css/layouts/layout.primary.grid.css" rel="stylesheet">
+  <link href="./css/components/accumulated.css" rel="stylesheet">
+  <link href="./css/components/round.time.css" rel="stylesheet">
+  <link href="./css/components/awards.css" rel="stylesheet">
+  <link href="./css/components/main.card.css" rel="stylesheet">
+  <link href="./css/components/last.balls.css" rel="stylesheet">
+  <link href="./css/components/best.cards.list.css" rel="stylesheet">
+  
+  
+  <link href="./css/pages/sorteio.andamento.css" rel="stylesheet">
+  <link href="./css/utils/shared.css" rel="stylesheet">
+
+  
 
   <title>Sorteios</title>
 </head>
 <body>
   <div id="layout">
     <section id="accumulated">
-      <div class="accumulated-box">
-        <div class="accumulated-box-left">
+      <div id="accumulated-box">
+        <aside>
           <div>
             <h2>ACUMULADO</h2>
             <footer>
               <div>
                 <span>VALOR</span>
-                <span>0,50</span>
+                <span>3,00</span>
               </div>
             </footer>
           </div>
           <div>
-            <span>-</span>
+            <span>1.000,00</span>
           </div>
-        </div>
-        <div class="accumulated-box-right">
+        </aside>
+        <article class="accumulated-box-right">
           <span>ATÉ</span>
-          <div class="box-value-primary">
+          <div>
             <span>40</span>
           </div>
           <span>BOLAS</span>
-        </div>
+        </article>
       </div>
     </section>
 
-    <section id="round-time">
+    <section id="times">
       <div class="round-time-box">
         <span>HORA ATUAL</span>
         <div>
           <span class="color-senary">09:44:02</span>
         </div>
       </div>
+
       <div class="round-time-box">
         <span class="color-quaternary">PRÓXIMA RODADA</span>
         <div>
           <span class="color-quaternary">00:00:00</span>
         </div>
       </div>
+
       <div class="round-time-box">
         <span>RODADA ATUAL</span>
         <div>
@@ -61,6 +77,7 @@
         </div>
       </div>
     </section>
+    
 
     <section id="awards">
       <div id="awards-box">
@@ -93,9 +110,11 @@
         </div>
       </div>
 
+      <!--  
       <div id="people">
-        <!-- Lista vazia -->
-      </div>
+        lista vazia
+      </div>  
+      -->
     </section>
 
     <section id="cards">
@@ -104,13 +123,13 @@
           <h2>Últimas Bolas Sorteadas</h2>
           <div>
             <div class="previous-no-ball">
-              <span>90</span>
+              <span><!-- sem bola --></span>
             </div>
             <div class="previous-no-ball">
-              <span>90</span>
+              <span><!-- sem bola --></span>
             </div>
             <div class="previous-no-ball">
-              <span>90</span>
+              <span><!-- sem bola --></span>
             </div>
           </div>
           <footer>
@@ -121,18 +140,18 @@
           </footer>
         </div>
         <div class="current-no-ball">
-          <span>90</span>
+          <span><!-- sem bola --></span>
         </div>
-
       </div>
+
+
       <div id="best-cards">
         <header>
           <h2>Melhores Cartelas</h2>
         </header>
 
         <div id="best-cards-list">
-          <!-- Lista vazia -->
-        </div>
+         <!-- lista vazia -->
       </div>
     </section>
 
