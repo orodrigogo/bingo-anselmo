@@ -194,7 +194,7 @@ div.accumulated-box-left  div + div {
 
 div.accumulated-box-left  div + div > span{
   color: var(--light);
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 500;
   margin-right: 15px;
 }
@@ -422,5 +422,189 @@ div#people > ul li span {
 /* =================================== CARTELAS */
 
 section#cards {
-  background-color: yellow;
+  width: 100%;
+}
+
+div#last-balls {
+  background-color: var(--black-transparent);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid var(--white);
+}
+
+
+
+div.last-balls-details > h2 {
+  font-size: 1.3rem;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+div.last-balls-details > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.previous-ball {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+
+  border-width: 8px;
+  border-style: solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  -moz-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+}
+
+div.previous-ball span {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+
+
+div.current-ball {
+  width: 170px;
+  height: 170px;
+  border-radius: 85px;
+
+  background: var(--ninth);
+  background: radial-gradient(circle, var(--white) 0%, var(--ninth) 100%);
+
+  border: 17px solid var(--quaternary);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  -moz-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+}
+
+div.current-ball span {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+
+div.last-balls-details footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 15px;
+  
+  max-width: 280px;
+}
+
+div.last-balls-details footer span{
+  color: var(--white);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+div.last-balls-details footer div{
+  background-color: var(--secondary);
+  padding: 10px 20px;
+  border-radius: 3px;
+
+  -webkit-box-shadow: inset 0px 1px 3px 3px rgba(0,0,0,0.74);
+  -moz-box-shadow: inset 0px 1px 3px 3px rgba(0,0,0,0.74);
+  box-shadow: inset 0px 1px 3px 3px rgba(0,0,0,0.74);
+
+  
+}
+
+div.last-balls-details footer div span{
+  color: var(--light);
+  font-size: 2.5rem;
+}
+
+
+div#best-cards > header {
+  background-color: var(--ninth);
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 10px;
+
+  -webkit-box-shadow: inset 0px 1px 3px 3px var(--eighth);
+  -moz-box-shadow: inset 0px 1px 3px 3px var(--eighth);
+  box-shadow: inset 0px 1px 3px 3px var(--eighth);
+}
+
+div#best-cards > header h2 {
+  color: var(--white);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+div#best-cards-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  height: 49vh;
+  overflow-y: scroll;
+
+}
+
+div.card {
+  width: 45%;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+
+}
+
+div.card header{  
+  width: 100%;
+  background-color: var(--quinary);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.card header h2{
+  color: var(--white);
+  padding: 7px 2px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+div.card table {
+  width: 100%;
+}
+
+div.card table tbody tr td {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+
+  font-size: 1.2rem;
+  border: 1px solid var(--black);
 }
