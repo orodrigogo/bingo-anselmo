@@ -422,4 +422,86 @@ div#people > ul li span {
 section#banner {
   grid-area: BN;
   background: red;
+
+  background-image: url(../img/bingo.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.card {  
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+  background-color: var(--senary);
+
+  border: 7px solid var(--quinary);
+  
+}
+
+div.card header{  
+  width: 100%;
+  background-color: var(--quinary);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.card header h2{
+  color: var(--white);
+  padding: 10px 2px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+
+div.card table {
+  
+  margin: 30px;
+  border: 3px solid var(--dark-senary);
+}
+
+div.card table tbody tr td {
+  width: 90px;
+  height: 90px;
+  text-align: center;
+
+  font-size: 4rem;
+  border: 1px solid var(--black);
+  background-color: var(--dark-senary);
+
+  border: 5px solid var(--quinary);
+}
+
+div.card table tbody tr td span {
+  line-height: 90px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+div.card footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+div.card footer div h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+div.card footer div span {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
