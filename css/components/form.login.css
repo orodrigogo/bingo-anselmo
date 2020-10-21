@@ -1,0 +1,88 @@
+form-login {
+  width: 370px;
+}
+
+div#form-login header {
+  color: var(--white);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  background-color: var(--dark-senary);
+  border: 5px solid var(--senary);
+
+  padding: 20px;
+  text-align: center;
+
+  border-radius: 10px;
+  ;
+}
+
+
+
+div#form-login form {
+  padding-top: 20px;
+  border-radius: 5px;
+  background-color: var(--black-transparent);
+
+  padding-bottom: 10px;
+}
+
+div#form-login form p {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 25px 0;
+}
+
+div#form-login form .form-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#form-login .form-row {
+  padding: 0 10px;
+}
+
+div#form-login .form-row span {
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+div#form-login form .form-row input {
+  margin-left: 10px;
+  font-size: 1.3rem;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+div#form-login form footer {
+  width: 100%;
+  padding: 0 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+div#form-login form footer input[type=button] {
+  width: 150px;
+  height: 50px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+
+  transition: opacity .3s;
+}
+
+div#form-login form footer input[type=button]:hover {
+  opacity: .7;
+}

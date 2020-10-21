@@ -17,6 +17,7 @@ div#accumulated-box article {
   justify-content: center;
   align-items: center;
   margin-left: 7px;
+
 }
 
 div#accumulated-box article > span {
@@ -36,6 +37,9 @@ div#accumulated-box article > div {
 
   text-align: center;
   line-height: 50px; 
+
+  background-color: var(--secondary);
+
 }
 
 div#accumulated-box article > div span {

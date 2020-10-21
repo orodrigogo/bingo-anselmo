@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rodrigo Gonçalves">
+  <meta name="description" content="Front-end desenvolvido por Rodrigo Gonçalves">
+
+  <link href="./css/utils/reset.css" rel="stylesheet">
+  <link href="./css/utils/colors.css" rel="stylesheet">
+
+  <link href="./css/layouts/layout.primary.grid.css" rel="stylesheet">
+  <link href="./css/components/accumulated.css" rel="stylesheet">
+  <link href="./css/components/times.message.css" rel="stylesheet">
+  <link href="./css/components/awards.css" rel="stylesheet">
+  <link href="./css/components/main.card.css" rel="stylesheet">
+  <link href="./css/components/last.balls.css" rel="stylesheet">
+  <link href="./css/components/best.cards.list.css" rel="stylesheet">
+  <link href="./css/components/form.login.css" rel="stylesheet">
+  
+  
+  <link href="./css/pages/login.modal.css" rel="stylesheet">
+  <link href="./css/utils/shared.css" rel="stylesheet">
+
+  
+
+  <title>Sorteio</title>
+</head>
+<body>
+  <div id="layout">
+    <section id="accumulated">
+      <div id="accumulated-box">
+        <aside>
+          <div>
+            <h2>ACUMULADO</h2>
+            <footer>
+              <div>
+                <span>VALOR</span>
+                <span>3,00</span>
+              </div>
+            </footer>
+          </div>
+          <div>
+            <span>-</span>
+          </div>
+        </aside>
+        <article class="accumulated-box-right">
+          <span>ATÉ</span>
+          <div>
+            <span>40</span>
+          </div>
+          <span>BOLAS</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="times">
+      <div id="times-message">
+        <span>Não há Jogadas</span>
+      </div>
+    </section>
+    
+
+    <section id="awards">
+      <div id="awards-box">
+        <div class="awards-box-position">
+          <div>
+            <span class="color-warning bg-color-alert">1º</span>
+            <strong>Prêmio</strong>
+          </div>
+          <div>
+            <span class="color-white">-</span>
+          </div>
+        </div>
+        <div class="awards-box-position">
+          <div>
+            <span class="bg-color-alert">2º</span>
+            <strong>Prêmio</strong>
+          </div>
+          <div>
+            <span class="color-white">-</span>
+          </div>
+        </div>
+        <div class="awards-box-position">
+          <div>
+            <span class="bg-color-alert">3º</span>
+            <strong>Prêmio</strong>
+          </div>
+          <div>
+            <span class="color-white">-</span>
+          </div>
+        </div>
+      </div>
+
+      <!--  
+      <div id="people">
+        lista vazia
+      </div>  
+      -->
+    </section>
+
+    <section id="cards">
+      <div id="last-balls">
+        <div class="last-balls-details">
+          <h2>Últimas Bolas Sorteadas</h2>
+          <div>
+            <div class="previous-no-ball">
+              <span><!-- sem bola --></span>
+            </div>
+            <div class="previous-no-ball">
+              <span><!-- sem bola --></span>
+            </div>
+            <div class="previous-no-ball">
+              <span><!-- sem bola --></span>
+            </div>
+          </div>
+          <footer>
+            <span>Quantidade de Bolas Sorteadas</span>
+            <div>
+              <span>0</span>
+            </div>
+          </footer>
+        </div>
+        <div class="current-no-ball">
+          <span><!-- sem bola --></span>
+        </div>
+      </div>
+
+
+      <div id="best-cards">
+        <header>
+          <h2>Melhores Cartelas</h2>
+        </header>
+
+        <div id="best-cards-list">
+         <!-- lista vazia -->
+      </div>
+    </section>
+
+    <section id="main-card">
+      <header>
+        <h2>BOA SORTE!!!</h2>
+      </header>
+      <table>
+        <tbody>
+          <tr>
+            <td class="bg-color-tertiary">1</td>
+            <td class="bg-color-tertiary">2</td>
+            <td class="bg-color-tertiary">3</td>
+            <td class="bg-color-tertiary" >4</td>
+            <td class="bg-color-tertiary">5</td>
+            <td class="bg-color-tertiary">6</td>
+            <td class="bg-color-tertiary">7</td>
+            <td class="bg-color-tertiary">8</td>
+            <td class="bg-color-tertiary">9</td>
+            <td class="bg-color-tertiary">10</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">11</td>
+            <td class="bg-color-tertiary">12</td>
+            <td class="bg-color-tertiary">13</td>
+            <td class="bg-color-tertiary">14</td>
+            <td class="bg-color-tertiary">15</td>
+            <td class="bg-color-tertiary">16</td>
+            <td class="bg-color-tertiary">17</td>
+            <td class="bg-color-tertiary">18</td>
+            <td class="bg-color-tertiary">19</td>
+            <td class="bg-color-tertiary">20</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">22</td>
+            <td class="bg-color-tertiary">22</td>
+            <td class="bg-color-tertiary">23</td>
+            <td class="bg-color-tertiary">24</td>
+            <td class="bg-color-tertiary">25</td>
+            <td class="bg-color-tertiary">26</td>
+            <td class="bg-color-tertiary">27</td>
+            <td class="bg-color-tertiary">28</td>
+            <td class="bg-color-tertiary">29</td>
+            <td class="bg-color-tertiary">30</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">32</td>
+            <td class="bg-color-tertiary">32</td>
+            <td class="bg-color-tertiary">33</td>
+            <td class="bg-color-tertiary">34</td>
+            <td class="bg-color-tertiary">35</td>
+            <td class="bg-color-tertiary">36</td>
+            <td class="bg-color-tertiary">37</td>
+            <td class="bg-color-tertiary">38</td>
+            <td class="bg-color-tertiary">39</td>
+            <td class="bg-color-tertiary">40</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">41</td>
+            <td class="bg-color-tertiary">42</td>
+            <td class="bg-color-tertiary">43</td>
+            <td class="bg-color-tertiary">44</td>
+            <td class="bg-color-tertiary">45</td>
+            <td class="bg-color-tertiary">46</td>
+            <td class="bg-color-tertiary">47</td>
+            <td class="bg-color-tertiary">48</td>
+            <td class="bg-color-tertiary">49</td>
+            <td class="bg-color-tertiary">50</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">52</td>
+            <td class="bg-color-tertiary">52</td>
+            <td class="bg-color-tertiary">53</td>
+            <td class="bg-color-tertiary">54</td>
+            <td class="bg-color-tertiary">55</td>
+            <td class="bg-color-tertiary">56</td>
+            <td class="bg-color-tertiary">57</td>
+            <td class="bg-color-tertiary">58</td>
+            <td class="bg-color-tertiary">59</td>
+            <td class="bg-color-tertiary">60</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">61</td>
+            <td class="bg-color-tertiary">62</td>
+            <td class="bg-color-tertiary">63</td>
+            <td class="bg-color-tertiary">64</td>
+            <td class="bg-color-tertiary">65</td>
+            <td class="bg-color-tertiary">66</td>
+            <td class="bg-color-tertiary">67</td>
+            <td class="bg-color-tertiary">68</td>
+            <td class="bg-color-tertiary">69</td>
+            <td class="bg-color-tertiary">70</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">71</td>
+            <td class="bg-color-tertiary">72</td>
+            <td class="bg-color-tertiary">73</td>
+            <td class="bg-color-tertiary">74</td>
+            <td class="bg-color-tertiary">75</td>
+            <td class="bg-color-tertiary">76</td>
+            <td class="bg-color-tertiary">77</td>
+            <td class="bg-color-tertiary">78</td>
+            <td class="bg-color-tertiary">79</td>
+            <td class="bg-color-tertiary">80</td>
+          </tr>
+
+          <tr>
+            <td class="bg-color-tertiary">81</td>
+            <td class="bg-color-tertiary">82</td>
+            <td class="bg-color-tertiary">83</td>
+            <td class="bg-color-tertiary">84</td>
+            <td class="bg-color-tertiary">85</td>
+            <td class="bg-color-tertiary">86</td>
+            <td class="bg-color-tertiary">87</td>
+            <td class="bg-color-tertiary">88</td>
+            <td class="bg-color-tertiary">89</td>
+            <td class="bg-color-tertiary">90</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>  
+
+  <section id="modal">
+    <div id="form-login">
+      <header>
+        <h2>Login Inicial</h2>
+      </header>
+      <form>
+        <div class="form-row">
+          <span>Login:</span>
+          <input type="text" placeholder="Login..."/>
+        </div>
+        <div class="form-row">
+          <span>Senha:</span>
+          <input type="password" placeholder="Senha..."/>
+        </div>
+        
+        <p>20c22ac352cb</p>
+
+        <footer>
+          <input type="button" class="bg-color-light" value="Cancelar" />
+          <input type="button" class="bg-color-tertiary color-white" value="OK" />
+        </footer>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
