@@ -42,6 +42,11 @@
   background-color: var(--spotlight);
 }
 
+
+.border-color-spotlight {
+  border-color: var(--spotlight);
+}
+
 .bg-color-alert {
   background-color: var(--alert);
 }
