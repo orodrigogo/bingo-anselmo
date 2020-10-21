@@ -6,6 +6,9 @@ section#content {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
+  overflow-y: scroll;
 }
 
 
@@ -17,6 +20,7 @@ div#winner-card {
   color: var(--white);
 
   overflow: hidden;
+  margin: 10px;
 }
 
 div#winner-card header{  
