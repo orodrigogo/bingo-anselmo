@@ -115,7 +115,7 @@ div#accumulated-box  aside  div > footer span:last-child{
 div#accumulated-box  aside  div > h2 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--tenth);
+  color: var(--quaternary);
   text-transform: uppercase;
 
   line-height: 2.5rem;

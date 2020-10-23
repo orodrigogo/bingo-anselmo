@@ -2,20 +2,22 @@
   --primary: #1A5C68;
   --secondary: #0E3B42;
   --tertiary: #005878;
-  --quaternary: #00a3a1;
+  --quaternary: #01f9f8;
 
   --quinary: #055902;
   --senary: #a6dc7a;
   --dark-senary: #12830D;
+  --dark-senary: #12830D;
   
   --eighth:#01468b;
   --ninth: #008699;
-  --tenth: #39B0AD;
+
   
   --white: #fff;
   --black: #000;
   --gray: #8a8c90;
   --dark-gray: #84A3BF;
+  --green-light: #93F205;
 
   
   --light: #e5de00;
@@ -24,7 +26,7 @@
   --alert: #FF8707;
 
 
-  --black-transparent: rgba(0,0,0,.7);
+  --black-transparent: rgba(0,0,0,.4);
   --linear-gradient-bottom-top: linear-gradient(188deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.5) 100%);
 }
 

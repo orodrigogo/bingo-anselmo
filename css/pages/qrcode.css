@@ -1,0 +1,14 @@
+section#content {
+  background-image: url(../../img/clube.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+img#qrcode {
+  width: 250px;
+  height: 250px;
+  
+  position: absolute;
+  right: 50px;
+  bottom: 40px;  
+}

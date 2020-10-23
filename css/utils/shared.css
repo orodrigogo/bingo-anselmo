@@ -2,6 +2,10 @@
   color: var(--senary);
 }
 
+.color-alert {
+  color: var(--alert);
+}
+
 .color-quaternary {
   color: var(--quaternary);
 }
@@ -36,6 +40,10 @@
 
 .bg-color-tertiary {
   background-color: var(--tertiary);
+}
+
+.bg-color-quaternary {
+  background-color: var(--quaternary);
 }
 
 .bg-color-spotlight {

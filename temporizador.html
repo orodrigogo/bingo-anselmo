@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Rodrigo Gonçalves">
+  <meta name="description" content="Front-end desenvolvido por Rodrigo Gonçalves">
+
+  <link href="./css/utils/reset.css" rel="stylesheet">
+  <link href="./css/utils/colors.css" rel="stylesheet">
+  <link href="./css/components/spinner.css" rel="stylesheet">
+  <link href="./css/components/round.time.css" rel="stylesheet">
+
+  <link href="./css/pages/temporizador.css" rel="stylesheet">
+  <link href="./css/utils/shared.css" rel="stylesheet">
+
+  <title>Cartela Premiada</title>
+</head>
+<body>
+  <div id="layout">
+    <h1>Atenção</h1>
+
+    <div id="main-container">
+      <div class="round-time-box">
+        <span class="color-quaternary">Rodada Número</span>
+        <div>
+          <span class="color-quaternary">400</span>
+        </div>
+      </div>
+
+      <div id="load-box">
+        <h2>A rodada vai começar em:</h2>
+        <div class="loader">
+          <span>00:39</span>
+          <div class="spinner"></div>
+        </div>
+      </div>
+
+      <div class="accumulate-box">
+        <span>Acumulado</span>
+        <div>
+          <span>1.000</span>         
+        </div>
+        <footer>
+          <span>Até <br/> Bolas</span>
+          <div>40</div>
+        </footer>
+      </div>
+    </div>
+    <div id="info">
+      <div class="round-time-box">
+        <span class="color-alert">Valor do 1º Prêmio</span>
+        <div>
+          <span class="color-alert">132,80</span>
+        </div>
+      </div>
+      <div class="round-time-box">
+        <span class="color-light">Valor 2º Prêmio</span>
+        <div>
+          <span class="color-light">199,20</span>
+        </div>
+      </div>
+      <div class="round-time-box">
+        <span class="color-quaternary">Valor 3º Prêmio</span>
+        <div>
+          <span class="color-quaternary">332,00</span>
+        </div>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

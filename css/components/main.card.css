@@ -65,9 +65,9 @@ section#main-card table tbody tr td {
 
   border: 3px solid var(--tenth);
 
-  -webkit-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
-  -moz-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.63);
-  box-shadow: inset 3px 3px 5px 3px rgba(0,0,0,0.63);
+  -webkit-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset 3px 3px 3px 3px rgba(0,0,0,0.4);
+  box-shadow: inset 3px 3px 5px 3px rgba(0,0,0,0.4);
 
   display: flex;
   justify-content: center;
