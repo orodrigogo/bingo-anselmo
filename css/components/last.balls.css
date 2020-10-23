@@ -62,7 +62,7 @@ div.previous-no-ball {
   height: 70px;
   border-radius: 35px;
   
-  background-color: var(--black-transparent);
+  background-color: var(--black);
   -webkit-box-shadow: 0px 1px 3px 3px var(--black);
   -moz-box-shadow: 0px 1px 3px 3px var(--black);
   box-shadow: 0px 1px 3px 3px var(--black);
@@ -105,7 +105,7 @@ div.current-no-ball {
   height: 170px;
   border-radius: 85px;
 
-  background-color: var(--black-transparent);
+  background-color: var(--black);
   -webkit-box-shadow: 0px 1px 3px 3px var(--black);
   -moz-box-shadow: 0px 1px 3px 3px var(--black);
   box-shadow: 0px 1px 3px 3px var(--black);
