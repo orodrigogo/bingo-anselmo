@@ -32,34 +32,30 @@ div.previous-ball {
   width: 70px;
   height: 70px;
   border-radius: 35px;
+
   background-color: var(--black);
 
-  -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
-  -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
-  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
-
 }
 
-div.previous-ball span {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  
+div.previous-ball > div {
   font-weight: 700;
   font-size: 28px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
   border-radius: 35px;
 
-  border-width: 8px;
-  border-style: solid;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  -webkit-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
-  -moz-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
-  box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  background-size: cover;
+  background-position: top left;
+ 
 }
+
+
+
 
 div.previous-no-ball {
   width: 70px;
@@ -83,13 +79,11 @@ div.current-ball {
   border-radius: 85px;
   background: var(--black);
 
-  -webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
-  -moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
-  box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.51);
+
 }
 
 
-div.current-ball span {
+div.current-ball div {
   font-size: 80px;
   font-weight: 700;
 
@@ -97,18 +91,13 @@ div.current-ball span {
   height: 170px;
   border-radius: 85px;
 
-  background-color: var(--ninth);
-  background: radial-gradient(circle, var(--white) 0%, var(--ninth) 100%);
-
-  border: 17px solid var(--quaternary);
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  -webkit-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
-  -moz-box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
-  box-shadow: inset 0px 1px 8px 3px rgba(0,0,0,0.74);
+  background-size: cover;
+  background-position: top left;
 }
 
 div.current-no-ball {
@@ -144,6 +133,8 @@ div.last-balls-details footer span{
   font-size: 1.3rem;
   font-weight: 700;
   text-align: center;
+
+  padding: 0 5px;
 }
 
 div.last-balls-details footer div{
@@ -162,3 +153,45 @@ div.last-balls-details footer div span{
   color: var(--light);
   font-size: 2.5rem;
 }
+
+
+
+
+div.bola-amarela {
+  background: url(../../img/bolas/amarela.png);
+}
+
+div.bola-azul-claro {
+  background: url(../../img/bolas/azul_claro.png);
+}
+
+div.bola-azul {
+  background: url(../../img/bolas/azul.png);
+}
+
+div.bola-laranja {
+  background: url(../../img/bolas/laranja.png);
+}
+
+div.bola-lilas {
+  background: url(../../img/bolas/lilas.png);
+}
+
+div.bola-verde-claro {
+  background: url(../../img/bolas/verde_claro.png);
+}
+
+div.bola-verde {
+  background: url(../../img/bolas/verde.png);
+}
+
+div.bola-vermelha {
+  background: url(../../img/bolas/vermelha.png);
+}
+
+div.bola-rosa {
+  background: url(../../img/bolas/rosa.png);
+}
+
+
+

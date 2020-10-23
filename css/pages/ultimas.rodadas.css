@@ -20,14 +20,12 @@ section#content {
 header {
   grid-area: HD;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: url(../../img/rodadas_especiais.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-
+  margin: 10px 0;
 }
 
 header h2 {

@@ -2,14 +2,14 @@
   --primary: #1A5C68;
   --secondary: #0E3B42;
   --tertiary: #005878;
-  --quaternary: #1D87B7;
+  --quaternary: #00a3a1;
 
   --quinary: #055902;
-  --senary: #77D932;
+  --senary: #a6dc7a;
   --dark-senary: #12830D;
   
-  --eighth:#04258E;
-  --ninth: #4859CB;
+  --eighth:#01468b;
+  --ninth: #008699;
   --tenth: #39B0AD;
   
   --white: #fff;
@@ -18,7 +18,7 @@
   --dark-gray: #84A3BF;
 
   
-  --light: yellow;
+  --light: #e5de00;
   --warning: #FF0020;
   --spotlight: #FF0099;
   --alert: #FF8707;

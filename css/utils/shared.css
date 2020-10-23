@@ -45,6 +45,7 @@
 
 .border-color-spotlight {
   border-color: var(--spotlight);
+
 }
 
 .bg-color-alert {
@@ -62,6 +63,9 @@
 
 .border-color-alert{
   border-color: var(--alert);
+
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+
 }
 
 

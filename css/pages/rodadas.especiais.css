@@ -21,15 +21,13 @@ section#content {
 
 header {
   grid-area: HD;
+  
+  background: url(../../img/rodadas_especiais.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  font-weight: 700;
-
+  margin: 10px 0;
 }
 
 div#last-time {
